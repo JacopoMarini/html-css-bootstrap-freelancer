@@ -16,6 +16,10 @@
     max-width: 71.25rem;
 }
 
+.min-container{
+    width: 60.625rem;
+}
+
 .col-3{
     border: 2px solid red;
     height: 5.3rem;
@@ -82,4 +86,26 @@
 .btn-green{
     background-color: var(--green);
     color: white;
+}
+
+.infos{
+    height: 13.75rem;
+    width: 100%;
+    background-color: var(--dark);
+}
+
+.copyright{
+    height: 5.625rem;
+    background-color: var(--darker);
+    width: 100%;
+}
+
+.infos .main-container .col-4{
+    height: 13.5rem;
+}
+
+.website-cr{
+    border: 2px solid purple;
+    height: 3rem;
+    width: 13.5rem;
 }
