@@ -1,23 +1,21 @@
-:root{
-    --darker: #2C3E50;
-    --green: #1ABC9C;
-    --dark: #3A546D;
+.bsf_bg_darker{
+    background-color: #2C3E50;
 }
 
-.main-header-debug{
-    background-color: var(--darker);
-    height: 5.625rem;
+.bsf_bg_green{
+    background-color: #1ABC9C;;
+}
+
+.bsf_bg_dark{
+    background-color: #3A546D;;
+}
+
+img{
     width: 100%;
 }
 
-.main-container{
-    border: 2px solid salmon;
-    height: 100%;
-    max-width: 71.25rem;
-}
-
-.min-container{
-    width: 60.625rem;
+#site_header{
+    background-color: var(--darker);
 }
 
 .col-3{
@@ -25,17 +23,7 @@
     height: 5.3rem;
 }
 
-.hero{
-    background-color: var(--green);
-    width: 100%;
-    height: 36.875rem;
-}
 
-.hero-card{
-    border: 2px solid orange;
-    width: 40rem;
-    height: 30rem;
-}
 
 .col-4{
     border: 2px solid blue;
